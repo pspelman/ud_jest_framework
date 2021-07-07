@@ -1,10 +1,8 @@
-module.exports = {
+import type { Config } from "@jest/types";
+
+const config: Config.InitialOptions = {
   roots: ["<rootDir>/src"],
-  preset: 'ts-jest',
-  // transform: {
-  //   '^.+\\.(ts|tsx)?$': 'ts-jest',
-  //   "^.+\\.(js|jsx)$": "babel-jest",
-  // },
+  preset: "ts-jest",
   transform: {
     "^.+\\.tsx?$": "ts-jest",
   },
@@ -12,5 +10,5 @@ module.exports = {
   moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
   verbose: true,
   collectCoverage: true,
-  collectCoverageFrom: ['<rootDir>/src/app/**/*.ts']
+  collectCoverageFrom: ["<rootDir>/src/app/**/*.ts"],
 };
