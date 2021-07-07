@@ -1,0 +1,31 @@
+{
+  "name": "jest-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watch",
+    "start": "ts-node src/app/Launcher.ts"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^14.2.1",
+    "nedb": "^1.8.0",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "@types/nedb": "^1.8.11",
+    "@types/node": "^16.0.0",
+    "@types/whatwg-url": "^8.2.1",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
+    "eslint": "^7.30.0",
+    "eslint-plugin-import": "^2.23.4",
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2",
+    "ts-jest": "^27.0.3",
+    "ts-node": "^10.0.0",
+    "whatwg-url": "^9.0.0"
+  }
+}
