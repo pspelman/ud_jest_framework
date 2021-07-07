@@ -12,3 +12,5 @@ const config: Config.InitialOptions = {
   collectCoverage: true,
   collectCoverageFrom: ["<rootDir>/src/app/**/*.ts"],
 };
+
+export default config;
